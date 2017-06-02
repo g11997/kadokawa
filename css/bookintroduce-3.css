@@ -55,6 +55,28 @@ body{
     height: 252px;
     /*border: solid 1px black;*/
 }
+.ui-main-button{
+    width: 85%;
+    height: 40px;
+    border: solid 1px #323276;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 7.5%;
+    background-color: #323276;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.fa-book{
+    margin-right: 5%;
+}
+.ui-main-button:hover{
+    background-color: #fff;
+    color: #323276;
+    cursor: pointer;
+}
 .ui-main-intro{
     margin-left: 6.7%;
     width: 73%;
@@ -67,11 +89,28 @@ body{
     width: 100%;
 }
 .ui-main-intro-left{
-    width: 13%;
+    width: 100%;
 
 }
-.ui-main-intro-right{
-    width: 87%;
+.ui-electric{
+    margin-left: 2.5%;
+    width: 7%;
+    height: 32px;
+    border: solid 1px #0098ce;
+    border-radius: 2px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+    color: #0098ce;
+    line-height: 32px;
+    font-size: 8px;
+}
+.ui-electric-word{
+    margin-left: 10%;
+}
+.ui-electric:hover{
+    background-color: #0098ce;
+    color: #fff;
+    cursor: pointer;
 }
 .ui-right{
     width: 20.4%;
@@ -81,7 +120,7 @@ body{
 }
 .ui-right-top{
     width: 100%;
-    height: 320px;
+    /*height: 320px;*/
     border-radius: 15px;
     background-color: #f8f8fb;
     border: solid thin #f8f8fb;
@@ -127,6 +166,7 @@ div.ui-right-sub-book:hover,
 div.ui-sub-rank:hover
 {
     opacity: 0.6;
+    cursor: pointer;
 }
 div.ui-right-sub-link:hover{
     opacity: 0.6;
@@ -387,5 +427,16 @@ hr{
     height: 66px;
     margin-left: 4.5%;
     margin-top: 2px;
+    cursor: pointer;
 }
-
+.ui-link{
+    text-decoration: none;
+    color: #323276;
+}
+.ui-link2{
+    color: #fff;
+    text-decoration: none;
+}
+.ui-link2:hover{
+    color:  #323276;
+}
