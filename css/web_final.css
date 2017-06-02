@@ -1,22 +1,43 @@
 *{margin:0 ;padding:0;}
 html, body{ margin:0; height:100%; }
+body{
+min-width: 1280px;
+}
 a{color:#5fa1d4;font-family: inherit;}
+a:link { 
+text-decoration: none; 
+} 
+a:visited { 
+text-decoration: none; 
+} 
+a:hover { 
+text-decoration: none; 
+} 
+a:active { 
+text-decoration: none; 
+} 
 p{font-family: inherit;}
+.custom{margin:0 60px 0 55px;display:flex;justify-content: center;}
 .ui-slick{
-	width:1300px;
+	/*width:1280px;*/
 }
 .ui-slick-main{
 	visibility:hidden;
 }
 .ui-slick-main img{
-	width:400px;
+	width:450px;
 	height:250px;
 }
 .ui-slick-main a img:hover {
   opacity:0.6;
   transition: all 0.3s linear 0s;
 }
-
+@media(max-width: 1280px) {
+	.ui-slick-main img{
+		width:427px;
+		height:250px;
+	}
+}
 /*-------------middle-----------------*/
 /*------------------------------------*/
 .ui-message{
@@ -97,13 +118,16 @@ p{font-family: inherit;}
 .middle-contain-image{
 	display:flex;
 	align-items: flex-end;
-	margin-bottom:5px;
+	margin-bottom:10px;
 	height:70%;
 }
+.middle-contain-image img{width:100%; }
+.image-border{border:solid 1px black}
 .middle-contain-list-name{
 	font-weight: bold;
 	margin-bottom:10px;
 }
+.ui-middle-contain-list p{margin-top:2px;height:auto; font-weight: normal;}
 .ui-middle-contain-button{
 	cursor:pointer;
 	margin:30px 23% 0 23%;
@@ -114,18 +138,20 @@ p{font-family: inherit;}
 	text-align: center;
 	height:33px;
 	line-height: 29px;
+	text-decoration:none;
 }
-.ui-middle-contain-button:hover
-{
+.ui-middle-contain-button:hover{
 	color:white;
 	background-color: #323276;
 	transition:background-color 0.3s linear;
 }
+
 @media (min-width: 992px) and (max-width: 1280px) {
   .box{
-    max-height:180px;
+    max-height:200px;
   }
   .ui-middle-contain-list{
+
   	padding:0 24px 0 0;
   }
    .ui-middle-contain-button{
@@ -135,7 +161,7 @@ p{font-family: inherit;}
 
 @media(min-width: 640px) and (max-width:992px)  {
   .box{
-    max-height:120px;
+    max-height:150px;
   }
   .ui-middle-contain-list{
   	padding:0 20px 0 0;
@@ -328,4 +354,30 @@ p{font-family: inherit;}
 	filter:alpha(opacity=40); /* For IE8 and earlier */
 	transition: all 0.3s linear 0s;
 
+}
+
+/*----bottom-----*/
+.ui-deep{
+    width: 100%;
+    height: 110px;
+    background-color: #323276;
+}
+.ui-bottom-line{
+    width: 100%;
+    margin-top:10px;
+}
+.ui-bottom-word{
+    width: 100%;
+    height: 63px;
+    line-height: 63px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+.ui-bottom-word1{
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
 }
