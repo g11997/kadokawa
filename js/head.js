@@ -4,6 +4,14 @@ $(".ui-drop3").hide();
 $(".ui-drop4").hide();
 $(".ui-drop5").hide();
 $(document).ready(function(){
+<<<<<<< HEAD
+=======
+	$(".ui-drop").hide();
+$(".ui-drop2").hide();
+$(".ui-drop3").hide();
+$(".ui-drop4").hide();
+$(".ui-drop5").hide();
+>>>>>>> 8c44a5ba26891e7018d44f382a1117cb380b60f4
 	$("#drop1").click(function(){
 		$(".ui-drop").toggle();
 		$(".ui-drop2").hide();
