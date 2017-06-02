@@ -4,6 +4,11 @@ $(".ui-drop3").hide();
 $(".ui-drop4").hide();
 $(".ui-drop5").hide();
 $(document).ready(function(){
+	$(".ui-drop").hide();
+$(".ui-drop2").hide();
+$(".ui-drop3").hide();
+$(".ui-drop4").hide();
+$(".ui-drop5").hide();
 	$("#drop1").click(function(){
 		$(".ui-drop").toggle();
 		$(".ui-drop2").hide();

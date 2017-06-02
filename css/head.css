@@ -215,10 +215,17 @@ b {
 .ui-head-contents{
 	height: 50px;
 	width: 100%;
-	box-shadow: 0px 2px 0px rgba(228,228,229,0.8);
+	/*box-shadow: 0px 2px 0px rgba(228,228,229,0.8);*/
 	display: flex;
 	flex-direction: row;
 	/*flex-wrap: wrap;*/
+}
+.ui-head-line{
+	background: linear-gradient(rgba(228,228,229,1), white);
+	width: 100%;
+	height: 5px;
+	position: absolute;
+	z-index: 1;
 }
 .drop{
 	display: block;
@@ -546,4 +553,11 @@ b {
 	width: 72%;
 	background-color: rgb(38,38,92);
 	line-height: 48px;
+}
+.ui-drop5{
+	width: 100%;
+}
+.ui-drop,.ui-drop2,.ui-drop3,.ui-drop4,.ui-drop5{
+	position: absolute;
+	z-index: 2;
 }
