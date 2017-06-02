@@ -215,17 +215,11 @@ b {
 .ui-head-contents{
 	height: 50px;
 	width: 100%;
-<<<<<<< HEAD
-	box-shadow: 0px 2px 0px rgba(228,228,229,0.8);
-=======
 	/*box-shadow: 0px 2px 0px rgba(228,228,229,0.8);*/
->>>>>>> 8c44a5ba26891e7018d44f382a1117cb380b60f4
 	display: flex;
 	flex-direction: row;
 	/*flex-wrap: wrap;*/
 }
-<<<<<<< HEAD
-=======
 .ui-head-line{
 	background: linear-gradient(rgba(228,228,229,1), white);
 	width: 100%;
@@ -233,7 +227,6 @@ b {
 	position: absolute;
 	z-index: 1;
 }
->>>>>>> 8c44a5ba26891e7018d44f382a1117cb380b60f4
 .drop{
 	display: block;
 	height: 50px;
@@ -561,8 +554,6 @@ b {
 	background-color: rgb(38,38,92);
 	line-height: 48px;
 }
-<<<<<<< HEAD
-=======
 .ui-drop5{
 	width: 100%;
 }
@@ -570,4 +561,3 @@ b {
 	position: absolute;
 	z-index: 2;
 }
->>>>>>> 8c44a5ba26891e7018d44f382a1117cb380b60f4
