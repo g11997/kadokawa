@@ -45,6 +45,9 @@ $(document).ready(function(){
 		$(".ui-drop3").hide();
 		$(".ui-drop4").hide();
 	});
+	$("#searchstyle").click(function(){
+		window.location.href="search-result.html";
+	});
 });
 
 
