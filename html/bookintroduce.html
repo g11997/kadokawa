@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>短暂的得意</title>
     <link rel="stylesheet" type="text/css" href="../css/bookintroduce.css">
+    <link rel="stylesheet" type="text/css" href="../css/pagetop.css">
     <meta name="author" content="KADOKAWA CORPORATION">
     <meta name="description" content="株式会社KADOKAWAオフィシャルサイト｜映画/音楽">
     <meta name="keywords" content="株式会社KADOKAWAオフィシャルサイト,映画/アニメ/ドラマ,歌ってみたの本,角川書店アニメーション,角川映画（今後の発売タイトルリスト）,角川映画,CLUSTER SOUNDS,GOON TRAX,CD＆DLでーた,FABTONE RECORDS,メディアファクトリーアニソン,メディアファクトリーアニメ,メディアファクトリー実写・ドラマ,RADTONE MUSIC">
@@ -18,9 +19,10 @@
     <script type="text/javascript" src="../lib/jquery.js"></script>
     <script type="text/javascript" src="../js/head.js"></script>
     <script type="text/javascript" src="../lib/bootstrap/js/bootstrap.js"></script>
+    <script src="../js/pagetop.js"></script>
 </head>
 <body>
-    <div class="ui-head-topcolor"></div>
+        <div class="ui-head-topcolor"></div>
     <div class="ui-head-outline">
         <div class="ui-head-firstline">
             <i class="fa fa-angle-right anstyle"></i><a href="groupintro.html">会社概要</a>
@@ -31,7 +33,7 @@
         <div class="ui-head-secondline">
             <a href="index.html"><img src="../image/head-logo.png" class="picstyle"></a>
             <div class="ui-head-search-out">
-                <form action="/product/search/" id="pcHeaderSearchForm">
+                <form action="search-result.html" id="pcHeaderSearchForm">
                     <div class="ui-head-search">
                         <span class="ui-head-search-area">
                             <select class="ui-head-search-order" name="sort">
@@ -86,7 +88,7 @@
     <!--   button1目录 -->
     <div class="ui-drop">
         <div class="ui-drop-firstline">
-            <a href="search-result.html" class="whitefont"><i class="fa fa-caret-right littletittle"></i> 書籍トップ</a>
+            <a href="book_list.html" class="whitefont"><i class="fa fa-caret-right littletittle"></i> 書籍トップ</a>
         </div>
         <div class="grayline"></div>
         <div class="ui-drop-secondline">
@@ -151,7 +153,7 @@
         <!--  2butto目录 -->
         <div class="ui-drop2">
             <div class="ui-drop-firstline">
-                <a href="search-result.html" class="whitefont"><i class="fa fa-caret-right littletittle"></i> ライトノベルトップ</a>
+                <a href="book_list.html" class="whitefont"><i class="fa fa-caret-right littletittle"></i> ライトノベルトップ</a>
             </div>
             <div class="grayline"></div>
             <div class="ui-drop-secondline">
@@ -211,7 +213,7 @@
         <!-- 3button目录 -->
         <div class="ui-drop3">
             <div class="ui-drop-firstline">
-                <a href="search-result.html" class="whitefont"><i class="fa fa-caret-right littletittle"></i> コミックトップ</a>
+                <a href="book_list.html" class="whitefont"><i class="fa fa-caret-right littletittle"></i> コミックトップ</a>
             </div>
             <div class="grayline"></div>
             <div class="ui-drop-secondline">
@@ -278,7 +280,7 @@
         <!-- 4button目录 -->
         <div class="ui-drop4">
             <div class="ui-drop-firstline">
-                <a href="search-result.html" class="whitefont"><i class="fa fa-caret-right littletittle"></i> 雑誌トップ</a>
+                <a href="book_list.html" class="whitefont"><i class="fa fa-caret-right littletittle"></i> 雑誌トップ</a>
             </div>
             <div class="grayline"></div>
             <div class="ui-drop-secondline">
@@ -388,7 +390,7 @@
         <!-- 5butto目录 -->
         <div class="ui-drop5">
             <div class="ui-drop-firstline">
-                <a href="search-result.html" class="whitefont"><i class="fa fa-caret-right littletittle"></i> 児童書トップ</a>
+                <a href="book_list.html" class="whitefont"><i class="fa fa-caret-right littletittle"></i> 児童書トップ</a>
             </div>
             <div class="grayline"></div>
             <div class="ui-drop-secondline">
@@ -609,6 +611,9 @@
             <img src="../image/bookintro-7.jpg" alt="" class="ui-last-img-pic">
             <img src="../image/bookintro-6.jpg" alt="" class="ui-last-img-pic">
         </div>
+    </div>
+    <div class="pagetop">
+        <i class="fa fa-chevron-up"></i>
     </div>
     <object style="" type="text/x-scriptlet" data="../html/bottom.html" width=100% height=110 class="bottom">
     </object>
