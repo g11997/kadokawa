@@ -19,13 +19,16 @@ text-decoration: none;
 p{font-family: inherit;}
 .custom{margin:0 60px 0 55px;display:flex;justify-content: center;}
 .ui-slick{
-	/*width:1280px;*/
+	margin-left:-15%;
+	margin-right:-15%;
+	/*width:1366px;*/
+
 }
 .ui-slick-main{
 	visibility:hidden;
 }
 .ui-slick-main img{
-	width:450px;
+	width:584px;
 	height:250px;
 }
 .ui-slick-main a img:hover {
@@ -33,9 +36,9 @@ p{font-family: inherit;}
   transition: all 0.3s linear 0s;
 }
 @media(max-width: 1280px) {
-	.ui-slick-main img{
-		width:427px;
-		height:250px;
+	.ui-slick{
+		margin-left:-16%;
+		margin-right:-21%;
 	}
 }
 /*-------------middle-----------------*/
@@ -380,4 +383,90 @@ p{font-family: inherit;}
     font-size: 12px;
     color: #fff;
     text-align: center;
+}
+
+
+/*--------book_list.html------------*/
+.ui-small-title{
+	background-color: #fbfbfc;
+	font-size: 12px;
+	font-weight: bold;
+	height: 34px;
+	line-height: 30px;
+	margin-bottom: 42px;
+	padding-left:35px;
+}
+.ui-content{
+	margin:0 35px 32px 35px;
+	display:flex; 
+	/*height:23px;*/
+	color:#323276;
+	font-size:18px;
+	font-weight: bold;
+}
+.ui-content-button{
+	cursor:pointer;
+	margin:-4px 0 0 25px;
+	border:solid 2px #dedde8;
+	border-radius: 20px;
+	color: #323276;
+	font-size: 14px;
+	text-align: center;
+	height:33px;
+	width:180px;
+	line-height: 29px;
+}
+.ui-content-button:hover{
+	color:white;
+	background-color: #323276;
+	transition:background-color 0.3s linear;
+}
+.ui-content-button i{color:#0099cf;}
+.ui-content-button a{color: #323276;text-decoration:none;}
+.ui-content-button:hover a{color:white;}
+
+#book-list-bottom{margin-top:50px;}
+
+.book-list-left{
+	padding:10px 0 10px 25px;
+	margin:18px 0 0 35px;
+	width:90%;
+	height:auto; 
+	height:100%;
+	border-top:solid 3px #323276;
+	background:linear-gradient(#f7f7fa, #ffffff);
+
+}
+.book-list-right{
+	padding:10px 0 10px 25px;
+	margin:18px 40px 0 18px;
+	/*margin-right:1%;*/
+	width:90%;
+	height:auto; 
+	height:100%;
+	border-top:solid 3px #323276;
+	background:linear-gradient(#f7f7fa, #ffffff);
+}
+.box{margin-top: 50px;}
+.brand-list{
+	margin:40px 35px 72px 35px;
+	height:auto;
+	padding:20px;
+	border-radius: 5px;
+	border:solid 1px #cccccc;
+	background:linear-gradient(#f7f7fa, #ffffff);
+}
+.brand-list span{
+	color:#323276;
+	font-size: 18px;
+	font-weight: bold;
+}
+.brand-list-content{
+	display:flex;
+	margin:15px 15px 0 15px;
+}
+.brand-list-column{
+	width:20%;
+	font-size: 12px;
+	color:#323276;
 }
