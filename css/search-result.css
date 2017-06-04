@@ -17,7 +17,6 @@ body{
 	background-color: #fbfbfc;
 }
 .search{
-	font-family: "微软雅黑";
 	font-size: 12px;
 	font-weight: normal;
 	line-height: 38px;
@@ -29,7 +28,6 @@ body{
 	color: #a0a0a0;
 }
 .search-result{
-	font-family: "微软雅黑";
 	font-size:12px;
 	font-weight: bold;
 	line-height: 38px;
@@ -40,7 +38,6 @@ body{
 	height: 73px;
 }
 .search-result-list{
-	font-family: "微软雅黑";
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 73px;
@@ -72,7 +69,6 @@ body{
 	border-style: none none solid none;
 }
 .ui-leftbody-item1-title1{
-	font-family: "微软雅黑";
 	margin-left: 10%;
 	font-size: 14px;
 	font-weight: bold;
@@ -80,13 +76,11 @@ body{
 	overflow:auto;
 }
 .ui-leftbody-item1-title2{
-	font-family: "微软雅黑";
 	margin-left: 10%;
 	font-size: 13px;
 	font-weight: bold;
 }
 .ui-leftbody-item1-content{
-	font-family: "微软雅黑";
 	margin-left: 20%;
 	font-size: 13px;
 }
@@ -104,7 +98,6 @@ body{
 	border-style: none none solid none;
 }
 .ui-leftbody-item2-title{
-	font-family: "微软雅黑";
 	margin-left: 10%;
 	font-size: 14px;
 	font-weight: bold;
@@ -112,18 +105,15 @@ body{
 	overflow:auto;
 }
 .ui-leftbody-item2-content{
-	font-family: "微软雅黑";
 	margin-left: 10%;
 	font-size: 13px;
 }
 .ui-leftbody-item2-content1{
-	font-family: "微软雅黑";
 	margin-left: 10%;
 	font-size: 13px;
 }
 .ui-leftbody-item2-content2{
 	margin-top: 10px;
-	font-family: "微软雅黑";
 	margin-left: 10%;
 	font-size: 13px;
 }
@@ -144,14 +134,12 @@ body{
 	border-bottom: 1px solid #c0c0c0;
 }
 .ui-leftbody-item3-title1{
-	font-family: "微软雅黑";
 	font-size: 14px;
 	font-weight: bold;
 	color: #323267;
 	overflow:auto;
 }
 .ui-leftbody-item3-title2{
-	font-family: "微软雅黑";
 	font-size: 14px;
 	font-weight: bold;
 	color: #323267;
@@ -183,7 +171,6 @@ body{
 	text-align: center;
 	background-color: #323276;
 	line-height: 40px;
-	font-family: "微软雅黑";
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -216,9 +203,6 @@ body{
 	position: absolute;
 	color: #ffffff;
 }
-.font{
-	font-family: "微软雅黑";
-}
 .ui-rightbody{
 	width: 76%;
 	height: auto;
@@ -230,7 +214,6 @@ body{
 	height: 28px;
 }
 .search-word{
-	font-family: "微软雅黑";
 	font-size: 14px;
 	color: #4a4a4a;
 }
@@ -263,13 +246,11 @@ body{
 	justify-content: flex-start;
 }
 .search-result-word{
-	font-family: "微软雅黑";
 	font-size: 12px;
 	color: #4a4a4a;
 	line-height: 70px;
 }
 .search-result-count{
-	font-family: "微软雅黑";
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 72px;
@@ -285,13 +266,11 @@ body{
 	line-height: 72px;
 }
 .detailed-button{
-	font-family: "微软雅黑";
 	font-size: 14px;
 	line-height: 72px;
 	color: #323276;
 }
 .list-button{
-	font-family: "微软雅黑";
 	margin-left: 1%;
 	margin-right: 1%;
 	font-size: 14px;
@@ -349,20 +328,17 @@ body{
 .book-title{
 	margin-top: 20px;
 	margin-bottom: 10px;
-	font-family: "微软雅黑";
 	font-size: 16px;
 	font-weight: bold;
 	color: #323276;
 }
 .book-introduction{
 	margin-bottom: 10px;
-	font-family: "微软雅黑";
 	font-size: 14px;
 	color: black;
 }
 .book-author{
 	margin-bottom: 10px;
-	font-family: "微软雅黑";
 	font-size: 12px;
 	color: black;
 }
@@ -371,7 +347,6 @@ body{
 }
 .book-price{
 	margin-bottom: 10px;
-	font-family: "微软雅黑";
 	font-size: 12px;
 	color: #4f4f4f;
 }
@@ -410,7 +385,6 @@ body{
 	width: 150px;
 	height: 40px;
 	border-radius: 5px;
-	font-family: "微软雅黑";
 	font-weight: bold;
 	text-align: center;
 	line-height: 40px;
