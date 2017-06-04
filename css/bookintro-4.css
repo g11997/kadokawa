@@ -444,3 +444,6 @@ hr{
 .ui-link2:hover{
     color:  #323276;
 }
+a{
+    text-decoration: none;
+}
