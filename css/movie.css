@@ -15,30 +15,25 @@ min-width: 1280px;
 .ui-movie-head a:link {
 	color: black;
 	font-size: 14px;
-	font-family: "宋体";
 	text-decoration: none
 }
 .ui-movie-head a:visited {
 	color: black;
 	font-size: 14px;
-	font-family: "宋体";
 	text-decoration: none
 }
 .ui-movie-head a:hover {
 	color: black;
 	font-size: 14px;
-	font-family: "宋体";
 	text-decoration:underline;
 }
 .ui-movie-head a:active {
 	color:black;
 	font-size: 14px;
-	font-family: "宋体";
 	text-decoration: underline;
 }
 .ui-movie-head-font{
 	font-size: 13px;
-	font-family: "宋体";
 	font-weight: bold;
 	margin-left: 1%;
 	margin-top: 9px;

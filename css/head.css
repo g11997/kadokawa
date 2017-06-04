@@ -31,49 +31,41 @@ min-width: 1280px;
 .ui-head-firstline a:link {
 	color: white;
 	font-size: 13px;
-	font-family: "宋体";
 	text-decoration: none
 }
 .ui-head-firstline a:visited {
 	color: white;
 	font-size: 13px;
-	font-family: "宋体";
 	text-decoration: none
 }
 .ui-head-firstline a:hover {
 	color: white;
 	font-size: 13px;
-	font-family: "宋体";
 	text-decoration:underline;
 }
 .ui-head-firstline a:active {
 	color:white;
 	font-size: 13px;
-	font-family: "宋体";
 	text-decoration: underline;
 }
 .ui-head-secondline a:link{
 	color: white;
 	font-size: 13px;
-	font-family: "宋体";
 	text-decoration: none
 }
 .ui-head-secondline a:visited{
 	color: white;
 	font-size: 13px;
-	font-family: "宋体";
 	text-decoration: none
 }
 .ui-head-secondline a:hover{
 	color: white;
 	font-size: 13px;
-	font-family: "宋体";
 	text-decoration:underline;
 }
 .ui-head-secondline a:active{
 	color:white;
 	font-size: 13px;
-	font-family: "宋体";
 	text-decoration: underline;
 }
 .ui-head-secondline{
@@ -169,7 +161,6 @@ b {
 	font-size: 13px;
 	font-weight: bold;
 	margin-left: 3.5%;
-	/*margin-top: 12px;*/
 }
 .ui-head-thirdline-block{
 	display: block;
@@ -181,21 +172,18 @@ b {
 .ui-head-thirdline a:link,#head-contents-sub a:link{
 	color: white;
 	font-size: 13.4px;
-	font-family: "宋体";
 	text-decoration: none;
 	font-weight: bold;
 }
 .ui-head-thirdline a:visited,#head-contents-sub a:visited{
 	color: white;
 	font-size: 13.4px;
-	font-family: "宋体";
 	text-decoration: none;
 	font-weight: bold;
 }
 .ui-head-thirdline a:hover,#head-contents-sub a:hover{
 	color: white;
 	font-size: 13.4px;
-	font-family: "宋体";
 	text-decoration:none;
 	background-color: rgb(25,86,146);
 	font-weight: bold;
@@ -204,7 +192,6 @@ b {
 .ui-head-thirdline a:active,#head-contents-sub a:active{
 	color:white;
 	font-size: 13.4px;
-	font-family: "宋体";
 	text-decoration: none;
 	background-color: rgb(25,86,146);
 	font-weight: bold;
@@ -252,19 +239,16 @@ b {
 #head-contents-sub a:link{
 	color: rgb(42,42,106);
 	font-size: 15px;
-	font-family: "宋体";
 	text-decoration: none;
 }
 #head-contents-sub a:visited{
 	color: rgb(42,42,106);
 	font-size: 15px;
-	font-family: "宋体";
 	text-decoration: none;
 }
 #head-contents-sub a:hover{
 	color: white;
 	font-size: 15px;
-	font-family: "宋体";
 	text-decoration:none;
 	background-color: rgb(79,163,214);
 	transition:background-color 0.3s linear;
@@ -273,7 +257,6 @@ b {
 #head-contents-sub a:active{
 	color:white;
 	font-size: 15px;
-	font-family: "宋体";
 	text-decoration: none;
 	background-color: rgb(79,163,214);
 }
@@ -377,56 +360,48 @@ b {
 .ui-drop-secondline-link a:link,.ui-drop-thirdline-link a:link,.ui-drop2-thirdline-link a:link,.ui-drop3-thirdline-link a:link{
 	color: white;
 	font-size: 13.5px;
-	font-family: "宋体";
 	font-weight: bold;
 	text-decoration: none
 }
 .ui-drop-secondline-link a:visited,.ui-drop-thirdline-link a:visited,.ui-drop2-thirdline-link a:visited,.ui-drop3-thirdline-link a:visited{
 	color: white;
 	font-size: 13.5px;
-	font-family: "宋体";
 	font-weight: bold;
 	text-decoration: none
 }
 .ui-drop-secondline-link a:hover,.ui-drop-thirdline-link a:hover,.ui-drop2-thirdline-link a:hover,.ui-drop3-thirdline-link a:hover{
 	color: white;
 	font-size: 13.5px;
-	font-family: "宋体";
 	font-weight: bold;
 	text-decoration:underline;
 }
 .ui-drop-secondline-link a:active,.ui-drop-thirdline-link a:active,.ui-drop2-thirdline-link a:active,.ui-drop3-thirdline-link a:active{
 	color:white;
 	font-size: 13.5px;
-	font-family: "宋体";
 	font-weight: bold;
 	text-decoration: underline;
 }
 .ui-drop-forthline-link a:link,.ui-drop3-forthline-link a:link,.ui-drop4-forthline-link a:link,.ui-drop5-forthline-link a:link{
 	color: white;
 	font-size: 13.4px;
-	font-family: "宋体";
 	font-weight: bold;
 	text-decoration:underline;
 }
 .ui-drop-forthline-link a:visited,.ui-drop3-forthline-link a:visited,.ui-drop4-forthline-link a:visited,.ui-drop5-forthline-link a:visited{
 	color: white;
 	font-size: 13.4px;
-	font-family: "宋体";
 	font-weight: bold;
 	text-decoration:underline;
 }
 .ui-drop-forthline-link a:hover,.ui-drop3-forthline-link a:hover,.ui-drop4-forthline-link a:hover,.ui-drop5-forthline-link a:hover{
 	color: white;
 	font-size: 13.4px;
-	font-family: "宋体";
 	font-weight: bold;
 	text-decoration:none;
 }
 .ui-drop-forthline-link a:active,.ui-drop3-forthline-link a:active,.ui-drop4-forthline-link a:active,.ui-drop5-forthline-link a:active{
 	color:white;
 	font-size: 13.4px;
-	font-family: "宋体";
 	font-weight: bold;
 	text-decoration: none;
 }
