@@ -8,8 +8,9 @@
 * 一个书店网站浏览器端（只有前端），提供书本的作者、定价、发行日期和简介等基本信息。
 ## 界面设计
 1. 主页页面
+<img src="/readme-img/index.png" width="50%" height="50%" />
 ![主页页面](/readme-img/index.png)
-<img src="/readme-img/index.png" width="10%" height="10%" />
+
 <!--2.书籍简介
 ![书籍简介](/readme-img/bookintro.png)
 3.检索页面
