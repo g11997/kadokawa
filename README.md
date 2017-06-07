@@ -9,7 +9,7 @@
 ## 界面设计
 1. 主页页面
 ![主页页面](/readme-img/index.png)
-<img src="/readme-img/index.png" width="50%" height="50%" />
+<img src="/readme-img/index.png" width="10%" height="10%" />
 <!--2.书籍简介
 ![书籍简介](/readme-img/bookintro.png)
 3.检索页面
