@@ -9,18 +9,17 @@
 ## 界面设计
 1. 主页页面
 <img src="/readme-img/index.png" width="50%" height="50%" />
-![主页页面](/readme-img/index.png)
 
-<!--2.书籍简介
-![书籍简介](/readme-img/bookintro.png)
+2.书籍简介
+<img src="/readme-img/bookintro.png" width="50%" height="50%" />
 3.检索页面
-![检索页面](/readme-img/search.png)
+<img src="/readme-img/search.png" width="50%" height="50%" />
 4.检索结果
-![检索结果](/readme-img/search-result.png)
+<img src="/readme-img/search-result.png" width="50%" height="50%" />
 5.电影页面
-![电影页面](/readme-img/movie.png)
+<img src="/readme-img/movie.png" width="50%" height="50%" />
 6.书籍界面
-![书籍页面](/readme-img/book.png)-->
+<img src="/readme-img/book.png" width="50%" height="50%" />
 ## 功能模块
 #### 首页 书籍页面
 * 顶端slick轮播插件，图片幻灯片样式滚动，hover设置鼠标悬停事件使透明度发生变化，点击图片跳转至相关书籍简介界面。
