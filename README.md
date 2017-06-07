@@ -9,19 +9,14 @@
 ## 界面设计
 1. 主页页面
 <img src="/readme-img/index.png" width="50%" height="50%" />
-
 2.书籍简介
 <img src="/readme-img/bookintro.png" width="50%" height="50%" />
-
 3.检索页面
 <img src="/readme-img/search.png" width="50%" height="50%" />
-
 4.检索结果
 <img src="/readme-img/search-result.png" width="50%" height="50%" />
-
 5.电影页面
 <img src="/readme-img/movie.png" width="50%" height="50%" />
-
 6.书籍界面
 <img src="/readme-img/book.png" width="50%" height="50%" />
 
